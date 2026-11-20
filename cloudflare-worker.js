@@ -1,6 +1,6 @@
 ```js
 // ============================================================
-// JARVIS — CLOUDFLARE WORKER
+// V.I.R.O.N. — CLOUDFLARE WORKER
 // IA + BÚSQUEDA WEB CON SEARXNG + ELEVENLABS TTS
 // ============================================================
 //
@@ -37,11 +37,11 @@ const DEFAULT_ELEVENLABS_VOICE_ID =
 
 
 // ============================================================
-// IDENTIDAD DE JARVIS
+// IDENTIDAD DE V.I.R.O.N.
 // ============================================================
 
 const identity = `
-Eres JARVIS, asistente personal profesional.
+Eres V.I.R.O.N., asistente personal profesional.
 
 Hablas español rioplatense, de forma breve, clara y precisa.
 
@@ -218,7 +218,7 @@ function cleanSearchQuery(message) {
     // Quitar "JARVIS"
 
     query = query.replace(
-        /^jarvis[\s,:-]*/i,
+        /^V.I.R.O.N.[\s,:-]*/i,
         ""
     );
 
