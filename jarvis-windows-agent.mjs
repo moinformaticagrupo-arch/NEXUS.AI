@@ -1,4 +1,4 @@
-// JARVIS Windows Agent: control local limitado a acciones autorizadas.
+// V.I.R.O.N. Windows Agent: control local limitado a acciones autorizadas.
 // Escucha solo en esta PC (127.0.0.1); nunca expone control de Windows a Internet.
 import http from 'node:http';
 import { spawn } from 'node:child_process';
