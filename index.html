@@ -6,14 +6,14 @@
   <meta name="theme-color" content="#030b14" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="stylesheet" href="styles.css" />
-  <title>JARVIS.AI — Personal OS</title>
+  <title>V.I.R.O.N.— Personal OS</title>
 </head>
 <body data-ai-state="online">
   <main class="shell">
     <header class="topbar">
       <div class="brand-block">
-        <p class="eyebrow"><i></i> JARVIS PERSONAL OPERATING SYSTEM</p>
-        <h1>JARVIS<span>.AI</span></h1>
+        <p class="eyebrow"><i></i> V.I.R.O.N. PERSONAL OPERATING SYSTEM</p>
+        <h1>V.I.R.O.N.<span>.AI</span></h1>
         <p class="tagline">Tu asistente. Siempre contigo.</p>
       </div>
 
@@ -27,7 +27,7 @@
         <span id="clock" class="clock"></span>
         <button id="voiceSettings" class="sound-button" aria-label="Elegir voz" title="Elegir voz">⚙</button>
         <button id="soundButton" class="sound-button" aria-label="Activar o silenciar voz" title="Voz activada">◖))</button>
-        <button id="voiceButton" class="icon-button" aria-label="Hablar con Jarvis" title="Hablar">⌁</button>
+        <button id="voiceButton" class="icon-button" aria-label="Hablar con V.I.R.O.N." title="Hablar">⌁</button>
       </div>
     </header>
 
@@ -110,7 +110,7 @@
             <div class="ring ring-one"></div>
             <div class="ring ring-two"></div>
             <div class="ring ring-three"></div>
-            <div class="orb"><span>JARVIS</span></div>
+            <div class="orb"><span>V.I.R.O.N.</span></div>
           </div>
 
           <div class="core-label left-label"><span>◉</span> PENSAMIENTO</div>
@@ -121,7 +121,7 @@
           <div class="core-label right-label label-three"><span>◉</span> Ollama</div>
 
           <div class="system-readout">
-            <p>JARVIS PERSONAL OS</p>
+            <p>V.I.R.O.N. PERSONAL OS</p>
             <strong>LISTO PARA AYUDAR</strong>
             <small>VOZ · ORGANIZACIÓN · INFORMACIÓN</small>
           </div>
@@ -156,9 +156,9 @@
         <section class="hud-panel assistant-panel">
           <div class="assistant-head">
             <div class="avatar">◉</div>
-            <div><strong>JARVIS</strong><small>En línea · Listo para ayudarte</small></div>
+            <div><strong>V.I.R.O.N.</strong><small>En línea · Listo para ayudarte</small></div>
           </div>
-          <div class="assistant-bubble">Hola, Red Hot.<br />¿En qué puedo ayudarte hoy?</div>
+          <div class="assistant-bubble">Hola.<br />¿En qué puedo ayudarte hoy?</div>
           <div class="assistant-actions">
             <button data-prompt="Buscar información en internet">◉ Buscar información en internet <span>›</span></button>
             <button data-prompt="Abrir una aplicación">◉ Abrir una aplicación <span>›</span></button>
@@ -208,7 +208,7 @@
         <div class="panel-heading"><span>SISTEMA DE VOZ</span><i></i></div>
         <div class="waveform large-wave" aria-hidden="true"></div>
         <strong>Micrófono activado</strong>
-        <small>JARVIS te escucha…</small>
+        <small>V.I.R.O.N. te escucha…</small>
       </section>
     </section>
 
@@ -239,7 +239,7 @@
       <button data-prompt="¿Qué puedes hacer?"><span>03</span> CAPACIDADES</button>
     </section>
 
-    <section class="modules" aria-label="Módulos de Jarvis">
+    <section class="modules" aria-label="Módulos de V.I.R.O.N.">
       <button data-action="music"><b>♫</b><span>MÚSICA<small>Spotify / YouTube</small></span></button>
       <button data-action="calendar"><b>◫</b><span>AGENDA<small>Próximamente</small></span></button>
       <button data-action="gestures"><b>⌁</b><span>GESTOS<small>Cámara web</small></span></button>
@@ -247,17 +247,17 @@
     </section>
 
     <form id="composer" class="composer">
-      <input id="prompt" autocomplete="off" placeholder="Escribe una orden o pregunta…" aria-label="Mensaje para Jarvis" />
+      <input id="prompt" autocomplete="off" placeholder="Escribe una orden o pregunta…" aria-label="Mensaje para V.I.R.O.N." />
       <button type="submit">ENVIAR ↗</button>
     </form>
 
     <dialog id="taskDialog"><form method="dialog" id="taskForm"><p>NUEVA TAREA</p><input id="taskInput" placeholder="Ej.: llamar a mamá a las 18:00" autocomplete="off" /><div><button value="cancel">Cancelar</button><button value="save">Guardar</button></div></form></dialog>
-    <dialog id="memoryDialog"><form method="dialog" id="memoryForm"><p>MEMORIA DE JARVIS</p><small>Solo se guarda en este dispositivo hasta activar la sincronización segura.</small><div id="memoryList" class="memory-list"></div><input id="memoryInput" placeholder="Ej.: Mi comida favorita es pizza" autocomplete="off" /><div><button id="clearMemory" type="button">Borrar memoria</button><button value="cancel">Cerrar</button><button value="save">Recordar</button></div></form></dialog>
-    <dialog id="gestureDialog" class="gesture-dialog"><div class="gesture-head"><div><p>CONTROL GESTUAL</p><small>Apunte a un botón y junte pulgar e índice para activarlo.</small></div><button id="closeGestures" aria-label="Cerrar">×</button></div><div class="gesture-stage"><video id="gestureVideo" playsinline muted></video><canvas id="gestureCanvas"></canvas><div class="gesture-hud"><div class="gesture-core"><span>JARVIS</span><small>GESTURE LINK</small></div><button data-gesture-command="Abrir archivos">ARCHIVOS</button><button data-gesture-command="Mostrar imágenes">IMÁGENES</button><button data-gesture-command="Abrir música">MÚSICA</button></div><p id="faceStatus" class="face-status">ROSTRO · BUSCANDO</p><p id="gestureStatus" class="gesture-status">Inicializando cámara…</p></div></dialog>
-    <dialog id="companionDialog" class="companion-dialog"><form method="dialog"><p>SESIÓN DE ACOMPAÑAMIENTO</p><small>JARVIS escucha solo mientras esta sesión esté activa. Decí “Jarvis” antes de pedir ayuda. No graba ni guarda el audio.</small><div class="companion-actions"><button value="cancel">Cancelar</button><button id="startCompanion" type="button">Iniciar conversación</button><button id="stopCompanion" type="button" disabled>Detener</button></div><p id="companionStatus" class="companion-status">Micrófono desactivado.</p><div id="companionTranscript" class="companion-transcript" aria-live="polite">Todavía no se detectaron palabras.</div></form></dialog>
-    <dialog id="voiceDialog" class="companion-dialog"><form method="dialog"><p>ESTUDIO DE VOZ</p><small>Elegí una voz de español instalada. JARVIS no imita la voz de una persona real.</small><label class="voice-control">VOZ<select id="voiceSelect" aria-label="Seleccionar voz"></select></label><label class="voice-control">ESTILO<select id="voiceStyle" aria-label="Estilo de habla"><option value="professional">Profesional sereno</option><option value="warm">Cercano y cálido</option><option value="brief">Directo y ágil</option></select></label><label class="voice-control">VELOCIDAD <output id="rateValue">Normal</output><input id="voiceRate" type="range" min="0.82" max="1.12" step="0.01" value="0.98" /></label><label class="voice-control">TONO <output id="pitchValue">Natural</output><input id="voicePitch" type="range" min="0.82" max="1.12" step="0.01" value="0.96" /></label><div class="companion-actions"><button value="cancel">Cerrar</button><button id="testVoice" type="button">Probar voz</button><button value="save">Guardar</button></div><p id="voiceHint" class="companion-status"></p></form></dialog>
+    <dialog id="memoryDialog"><form method="dialog" id="memoryForm"><p>MEMORIA DE V.I.R.O.N.</p><small>Solo se guarda en este dispositivo hasta activar la sincronización segura.</small><div id="memoryList" class="memory-list"></div><input id="memoryInput" placeholder="Ej.: Mi comida favorita es pizza" autocomplete="off" /><div><button id="clearMemory" type="button">Borrar memoria</button><button value="cancel">Cerrar</button><button value="save">Recordar</button></div></form></dialog>
+    <dialog id="gestureDialog" class="gesture-dialog"><div class="gesture-head"><div><p>CONTROL GESTUAL</p><small>Apunte a un botón y junte pulgar e índice para activarlo.</small></div><button id="closeGestures" aria-label="Cerrar">×</button></div><div class="gesture-stage"><video id="gestureVideo" playsinline muted></video><canvas id="gestureCanvas"></canvas><div class="gesture-hud"><div class="gesture-core"><span>V.I.R.O.N.</span><small>GESTURE LINK</small></div><button data-gesture-command="Abrir archivos">ARCHIVOS</button><button data-gesture-command="Mostrar imágenes">IMÁGENES</button><button data-gesture-command="Abrir música">MÚSICA</button></div><p id="faceStatus" class="face-status">ROSTRO · BUSCANDO</p><p id="gestureStatus" class="gesture-status">Inicializando cámara…</p></div></dialog>
+    <dialog id="companionDialog" class="companion-dialog"><form method="dialog"><p>SESIÓN DE ACOMPAÑAMIENTO</p><small>V.I.R.O.N. escucha solo mientras esta sesión esté activa. Decí V.I.R.O.N. antes de pedir ayuda. No graba ni guarda el audio.</small><div class="companion-actions"><button value="cancel">Cancelar</button><button id="startCompanion" type="button">Iniciar conversación</button><button id="stopCompanion" type="button" disabled>Detener</button></div><p id="companionStatus" class="companion-status">Micrófono desactivado.</p><div id="companionTranscript" class="companion-transcript" aria-live="polite">Todavía no se detectaron palabras.</div></form></dialog>
+    <dialog id="voiceDialog" class="companion-dialog"><form method="dialog"><p>ESTUDIO DE VOZ</p><small>Elegí una voz de español instalada. V.I.R.O.N. no imita la voz de una persona real.</small><label class="voice-control">VOZ<select id="voiceSelect" aria-label="Seleccionar voz"></select></label><label class="voice-control">ESTILO<select id="voiceStyle" aria-label="Estilo de habla"><option value="professional">Profesional sereno</option><option value="warm">Cercano y cálido</option><option value="brief">Directo y ágil</option></select></label><label class="voice-control">VELOCIDAD <output id="rateValue">Normal</output><input id="voiceRate" type="range" min="0.82" max="1.12" step="0.01" value="0.98" /></label><label class="voice-control">TONO <output id="pitchValue">Natural</output><input id="voicePitch" type="range" min="0.82" max="1.12" step="0.01" value="0.96" /></label><div class="companion-actions"><button value="cancel">Cerrar</button><button id="testVoice" type="button">Probar voz</button><button value="save">Guardar</button></div><p id="voiceHint" class="companion-status"></p></form></dialog>
     <dialog id="actionDialog" class="companion-dialog"><form method="dialog"><p>CONFIRMAR ACCIÓN</p><small id="actionDescription"></small><div class="companion-actions"><button value="cancel">Cancelar</button><button id="confirmAction" type="button">Confirmar y abrir</button></div></form></dialog>
-    <dialog id="devicesDialog" class="companion-dialog"><form method="dialog"><p>DISPOSITIVOS JARVIS</p><small>Cada equipo se vincula por separado y solo puede abrir las apps que autorices.</small><div class="device-list"><div><b>PC WINDOWS</b><span>Disponible con el Agente Windows activo.</span></div><div><b>ANDROID / ANDROID TV</b><span>Requiere una app compañera de JARVIS instalada.</span></div><div><b>IPHONE / APPLE TV</b><span>Requiere app nativa o Atajos autorizados por el dueño.</span></div></div><div class="companion-actions"><button value="cancel">Cerrar</button></div></form></dialog>
+    <dialog id="devicesDialog" class="companion-dialog"><form method="dialog"><p>DISPOSITIVOS V.I.R.O.N.</p><small>Cada equipo se vincula por separado y solo puede abrir las apps que autorices.</small><div class="device-list"><div><b>PC WINDOWS</b><span>Disponible con el Agente Windows activo.</span></div><div><b>ANDROID / ANDROID TV</b><span>Requiere una app compañera de V.I.R.O.N. instalada.</span></div><div><b>IPHONE / APPLE TV</b><span>Requiere app nativa o Atajos autorizados por el dueño.</span></div></div><div class="companion-actions"><button value="cancel">Cerrar</button></div></form></dialog>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
