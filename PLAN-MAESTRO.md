@@ -1,4 +1,4 @@
-# JARVIS Personal OS — Plan Maestro
+# V.I.R.O.N. Personal OS — Plan Maestro
 
 **Propietario y creador:** Fagioli Ruiz Lautaro Joel  
 **Objetivo:** Un asistente personal multiplataforma, privado por diseño, que funcione desde celular, PC y TV.
@@ -9,7 +9,7 @@
 Celular / PC / TV
        │ voz, pantalla y notificaciones
        ▼
-JARVIS Cloud (identidad, IA, memoria, permisos)
+V.I.R.O.N. Cloud (identidad, IA, memoria, permisos)
        ├── Agenda, tareas y hábitos
        ├── Música, medios y TV
        ├── Automatizaciones y hogar
@@ -17,7 +17,7 @@ JARVIS Cloud (identidad, IA, memoria, permisos)
        └── Conectores autorizados en cada dispositivo
 ```
 
-JARVIS solo ejecutará acciones externas después de una autorización expresa del dueño o de una regla configurada por él.
+V.I.R.O.N. solo ejecutará acciones externas después de una autorización expresa del dueño o de una regla configurada por él.
 
 ## Módulos
 
@@ -87,5 +87,5 @@ JARVIS solo ejecutará acciones externas después de una autorización expresa d
 
 1. Elegir un proveedor de nube y crear la cuenta del dueño.
 2. Configurar la clave de IA como secreto de servidor.
-3. Publicar la URL segura de JARVIS.
+3. Publicar la URL segura de V.I.R.O.N.
 4. Conectar primero el PC Windows: será el puente inicial para apps, archivos y medios.
